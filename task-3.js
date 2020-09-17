@@ -1,11 +1,3 @@
-// Напиши класс Storage, который будет создавать объекты для управления складом товаров. При вызове будет получать один аргумент - начальный массив товаров, и записывать его в свойство items.
-
-// Добавь методы класса:
-
-// getItems() - возвращает массив текущих товаров
-// addItem(item) - получает новый товар и добавляет его к текущим
-// removeItem(item) - получет товар и, если он есть, удаляет его из текущих
-
 class Storage {
   constructor(arrayStorage) {
     this.items = arrayStorage;
@@ -25,8 +17,6 @@ class Storage {
         return this.items.splice(i, 1);
       }
     }
-    // for (let elem of item);
-    // console.log(elem);
   }
 }
 

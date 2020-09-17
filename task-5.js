@@ -1,5 +1,3 @@
-// Напиши класс Car с указанными свойствами и методами.
-
 class Car {
   static getSpecs({ maxSpeed, _price, speed, isOn, distance }) {
     console.log(
